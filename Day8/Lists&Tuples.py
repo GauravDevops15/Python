@@ -1,6 +1,6 @@
 #Lists
 
-students_names = ["Abhi","Gaurav","Mansi"]
+students_names = ["Abhi","Gaurav","Mansi","varsha","xyz"]
 print(students_names)
 
 ## Helps in printing s3 buckets, Ec2 instances
@@ -36,3 +36,10 @@ print(students_names)
 #count elements in list
 count = len(students_names)
 print (count)
+
+#print one of element from list
+print(S3_bucket_lists[0])
+
+#slice of list
+new_list = students_names[0:2]##it will create new list, from 0 to 2....3 being uppr bound
+print(new_list)

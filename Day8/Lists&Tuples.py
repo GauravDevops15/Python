@@ -18,3 +18,21 @@ print(S3_bucket_lists)
 print(type(S3_bucket_lists))#check type
 print(type(admins))#check type
 print(type(students_names))#check type
+
+#add element in existing tuple
+
+#S3_bucket_lists.append("new_S3_bucket")#gives error coz can't add element in tuple
+
+#add element in existing list
+
+students_names.append("ABC_new_element")
+
+print(students_names)
+
+#remove element from list
+
+students_names.remove("ABC_new_element")
+print(students_names)
+#count elements in list
+count = len(students_names)
+print (count)

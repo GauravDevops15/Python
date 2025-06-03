@@ -43,3 +43,13 @@ print(S3_bucket_lists[0])
 #slice of list
 new_list = students_names[0:2]##it will create new list, from 0 to 2....3 being uppr bound
 print(new_list)
+
+#sorting in list
+numbers = [1,5,3,66,45,32,553,23423,43]
+print(numbers)
+numbers.sort()
+print(numbers)
+
+#Hetrogeneous list
+random_list = [1,2,3,4,"varsha","xyz"]
+print(random_list)

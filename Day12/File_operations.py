@@ -19,3 +19,26 @@ if os.path.exists("Day12/gaurav.txt"):
     print("File exists")
 else:
     print("File does not exist")
+
+file = open("Day12/gaurav.txt", "r")
+
+
+
+content = file.read()# Reads entire file
+print(content)
+file.close()
+
+
+
+file = open("Day12/gaurav.txt", "r")
+
+line = file.readline()  # Reads one line
+print(line)
+file.close()
+
+
+
+file = open("Day12/gaurav.txt", "r")
+lines = file.readlines()       # Reads all lines into a list
+print(lines)
+file.close()

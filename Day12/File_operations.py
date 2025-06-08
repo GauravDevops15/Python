@@ -20,25 +20,36 @@ if os.path.exists("Day12/gaurav.txt"):
 else:
     print("File does not exist")
 
+
+# Reads entire file
 file = open("Day12/gaurav.txt", "r")
-
-
-
 content = file.read()# Reads entire file
 print(content)
 file.close()
 
 
-
+# Reads one line
 file = open("Day12/gaurav.txt", "r")
-
 line = file.readline()  # Reads one line
 print(line)
 file.close()
 
 
-
+# Reads all lines into a list
 file = open("Day12/gaurav.txt", "r")
 lines = file.readlines()       # Reads all lines into a list
+print(lines)
+file.close()
+
+
+file = open("Day12/gaurav.txt", "a")
+file.write("New Line added with write function!\n")
+file.writelines(["Line 1\n", "Line 2\n"])
+file.close()
+
+
+#read the final content
+file = open("Day12/gaurav.txt", "r")
+lines = file.readlines() # Reads all lines into a list
 print(lines)
 file.close()
